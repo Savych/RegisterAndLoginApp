@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.labController">
+    <children>
+        <AnchorPane layoutY="96.0" prefHeight="304.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label layoutX="244.0" layoutY="14.0" text="Добро пожаловать!" textFill="#545454">
+                    <font>
+                        <Font name="Lobster" size="25.0" />
+                    </font>
+                </Label>
+            <ImageView fx:id="imageButton" fitHeight="150.0" fitWidth="200.0" layoutX="275.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/lab.png" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="284.0" layoutY="17.0" text="Savych" textFill="WHITE">
+            <font>
+                <Font name="Lobster" size="46.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
